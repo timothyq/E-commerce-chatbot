@@ -1,0 +1,49 @@
+# -----------------------------------------------------------------------------
+# Core Application & API
+# -----------------------------------------------------------------------------
+# FastAPI: The modern, fast web framework for building the API.
+fastapi==0.115.1
+
+# Uvicorn: The lightning-fast ASGI server to run FastAPI.
+uvicorn==0.34.3
+
+# Pydantic: For data validation and settings management. A core part of FastAPI.
+pydantic==2.11.5
+
+# Python-dotenv: To load environment variables from a .env file (for API keys).
+python-dotenv==1.1.0
+
+
+# -----------------------------------------------------------------------------
+# Data Science & Machine Learning
+# -----------------------------------------------------------------------------
+# PyTorch: The core deep learning framework. Required by Transformers.
+# Note: We're not installing with CUDA/GPU support here for simplicity.
+# If you have a GPU, you can install the appropriate version from pytorch.org.
+torch==2.5.0
+
+# Transformers: From Hugging Face, for easily downloading and using embedding models.
+transformers==4.52.4
+
+# Datasets: From Hugging Face, for efficiently downloading and processing the Amazon dataset.
+datasets==3.6.0
+pyarrow==20.0.0
+
+
+# -----------------------------------------------------------------------------
+# Vector Database Client
+# -----------------------------------------------------------------------------
+# Qdrant-client: The official Python client for our chosen vector database.
+qdrant-client==1.14.2
+
+
+# -----------------------------------------------------------------------------
+# Optional, but recommended for notebooks
+# -----------------------------------------------------------------------------
+# JupyterLab: For running the data exploration notebooks.
+notebook==7.3.2
+jupyterlab==4.3.4
+pandas==2.2.2
+
+# Pandas: For data manipulation and analysis, especially in notebooks.
+pandas==2.2.2
