@@ -47,3 +47,7 @@ pandas==2.2.2
 
 # Pandas: For data manipulation and analysis, especially in notebooks.
 pandas==2.2.2
+
+# For parsing HTML content in notebooks
+beautifulsoup4==4.12.3
+lxml==5.2.2
