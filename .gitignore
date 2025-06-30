@@ -74,7 +74,10 @@ config/settings.local.yaml
 .LSOverride
 
 # --- Data ---
-data/*.csv
+data/*
+#!data/gold_standard_data/
+#data/gold_standard_data/*
+#!data/gold_standard_data/master_chatbot_dataset.parquet
 
 # Icon must end with two \r
 Icon
